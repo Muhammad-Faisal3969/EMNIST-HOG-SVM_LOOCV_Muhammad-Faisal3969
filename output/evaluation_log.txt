@@ -1,0 +1,22 @@
+=======================================================
+EMNIST classification start at Thu Nov  6 07:46:51 2025
+Output Log: C:\Users\Asus-chan\assignments\EMNIST-HOG-SVM_LOOCV_Muhammad-Faisal3969\output\evaluation_log.txt
+=======================================================
+Loading and sampling data...
+Total sample: 13000 (26 class)
+
+!Final LOOCV evaluation!
+
+[HOG] Extraction features: Orient=9, PPC=(8, 8), CPB=(2, 2)...
+=HOG features extraction: (13000, 144)
+
+[LOOCV] LOOCV finalizing (Kernel=linear, C=10.0)...
+WARNING: LOOCV on 13000 will take a long time to sample (hours/days)!
+
+LOOCV final matrix evaluation
+total LOOCV Computational time: 4.32 hours
+LOOCV accuracy: 81.08%
+
+[VISUALIZATION] Confusion Matrix saved to: C:\Users\Asus-chan\assignments\EMNIST-HOG-SVM_LOOCV_Muhammad-Faisal3969\output\confusion_matrix_hog_svm_linear.png
+
+!Proram execution is done!
